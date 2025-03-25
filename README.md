@@ -26,8 +26,8 @@ The system consists of multiple agents, each responsible for a specific task:
 ### 1. Clone the Repository
 
 ```bash
-git clone 
-cd ai-use-case-generator
+git clone https://github.com/Satyajit24behera/ai_company_use_case_app.git
+cd ai_company_use_case_app
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
