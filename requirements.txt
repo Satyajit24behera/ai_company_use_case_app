@@ -1,7 +1,7 @@
 streamlit
 pandas
 tavily-python
-google.generativeai
+google-generativeai
 requests
 python-dotenv
 kaggle
