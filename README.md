@@ -52,9 +52,12 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add the following API keys:
 
 ```bash
-TAVILY_API_KEY=your_tavily_api_key
-KAGGLE_USERNAME=your_kaggle_username
-KAGGLE_KEY=your_kaggle_api_key
+TAVILY_API_KEY=your_real_tavily_key
+GEMINI_API_KEY=your_real_gemini_key
+KAGGLE_USERNAME=your_real_kaggle_username
+KAGGLE_KEY=your_real_kaggle_key
+
+
 ```
 
 Replace `your_tavily_api_key`, `your_kaggle_username`, and `your_kaggle_api_key` with your actual API credentials.
