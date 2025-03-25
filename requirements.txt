@@ -1,0 +1,7 @@
+streamlit
+pandas
+tavily-python
+openai
+requests
+python-dotenv
+kaggle
