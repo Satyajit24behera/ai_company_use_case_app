@@ -6,21 +6,18 @@ This project is designed to generate AI and Generative AI use cases for various 
 
 The system consists of multiple agents, each responsible for a specific task:
 
-1. **Research Agent (`agent_1.py`)**
+1. **Research Agent (`Agent_1.py`)**
    - Conducts market research based on company and industry data.
    - Collects relevant trends, reports, and insights from external sources.
 
-2. **AI Use Case Generator (`agent_2.py`)**
+2. **AI Use Case Generator (`Agent_2.py`)**
    - Uses AI models like Gemini to generate use cases for specific industries.
    - Provides structured insights for AI implementation.
 
-3. **Dataset Finder (`fetch_resources.py`)**
+3. **Dataset Finder (`Agent_3.py`)**
    - Fetches relevant datasets from Kaggle for the given AI use case.
 
-4. **GitHub Repo Finder (`fetch_resources.py`)**
-   - Finds related AI projects on GitHub to assist in implementation.
-
-5. **Streamlit Frontend (`app.py`)**
+4. **Streamlit Frontend (`main.py`)**
    - Provides an interactive UI for inputting industry and company data.
    - Displays AI use cases, relevant datasets, and GitHub repositories.
 
@@ -29,7 +26,7 @@ The system consists of multiple agents, each responsible for a specific task:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-use-case-generator.git
+git clone 
 cd ai-use-case-generator
 ```
 
@@ -65,7 +62,7 @@ Replace `your_tavily_api_key`, `your_kaggle_username`, and `your_kaggle_api_key`
 ### 5. Running the Application
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 This will launch the web UI where you can input a company name and industry to generate AI use cases and find relevant datasets.
