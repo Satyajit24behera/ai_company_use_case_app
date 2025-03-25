@@ -5,4 +5,4 @@ google-generativeai
 requests
 python-dotenv
 kaggle
-docx-python
+python-docx
